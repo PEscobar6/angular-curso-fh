@@ -15,7 +15,6 @@ export class CounterComponent {
     this.counter += value;
   }
 
-  public resetCounter(): void {
-    this.counter = 10;
+  public resetCounter(): void {this.counter = 10;
   }
 }
